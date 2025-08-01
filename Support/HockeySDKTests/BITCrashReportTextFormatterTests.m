@@ -11,7 +11,7 @@
 #import <OCHamcrestIOS/OCHamcrestIOS.h>
 #import <OCMockitoIOS/OCMockitoIOS.h>
 
-#import <CrashReporter/CrashReporter.h>
+#import "CrashReporter.h"
 #import "BITCrashReportTextFormatter.h"
 
 #import "BITTestHelper.h"
