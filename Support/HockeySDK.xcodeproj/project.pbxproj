@@ -458,6 +458,7 @@
 		C5A5C8CD2DBB1C83005156D5 /* PLCrashReportProcessInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A5C8B72DBB1C82005156D5 /* PLCrashReportProcessInfo.h */; };
 		C5A5C8CE2DBB1C83005156D5 /* PLCrashReporterConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A5C8B82DBB1C82005156D5 /* PLCrashReporterConfig.h */; };
 		C5A5C8CF2DBB1C83005156D5 /* PLCrashFeatureConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A5C8B92DBB1C82005156D5 /* PLCrashFeatureConfig.h */; };
+		C5A5C8D22DBC309E005156D5 /* libCrashReporter-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A5C8D12DBC309E005156D5 /* libCrashReporter-iOS.a */; };
 		E405266217A2AD300096359C /* BITFeedbackManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E405266117A2AD300096359C /* BITFeedbackManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E40E0B0917DA19DC005E38C1 /* BITHockeyAppClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E0B0817DA19DC005E38C1 /* BITHockeyAppClientTests.m */; };
 		E40E0B0C17DA1AFF005E38C1 /* BITHockeyAppClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E40E0B0A17DA1AFF005E38C1 /* BITHockeyAppClient.h */; };
@@ -787,6 +788,7 @@
 		B2D1CE5D1D9DE4F700CA74A8 /* FeedbackPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeedbackPlaceholder.png; sourceTree = "<group>"; };
 		BEE0207C16C5107E004426EA /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/HockeySDK.strings; sourceTree = "<group>"; };
 		C561B8242E3D09AF008498CC /* libCrashReporter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCrashReporter.a; path = "../../../../Downloads/PLCrashReporter 3/libCrashReporter.a"; sourceTree = "<group>"; };
+		C5A5C8A22DBB1B9E005156D5 /* libCrashReporter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCrashReporter.a; path = "../../../../Library/Developer/Xcode/DerivedData/CrashReporter-fjqsdlqflpdyxmgklegsuscjatlx/Build/Products/Debug-macosx/libCrashReporter.a"; sourceTree = "<group>"; };
 		C5A5C8A42DBB1C7F005156D5 /* CrashReporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CrashReporter.h; path = ../Classes/CrashReporter.h; sourceTree = "<group>"; };
 		C5A5C8A52DBB1C80005156D5 /* PLCrashReportThreadInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PLCrashReportThreadInfo.h; path = ../Classes/PLCrashReportThreadInfo.h; sourceTree = "<group>"; };
 		C5A5C8A62DBB1C80005156D5 /* PLCrashReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PLCrashReport.h; path = ../Classes/PLCrashReport.h; sourceTree = "<group>"; };
@@ -809,6 +811,7 @@
 		C5A5C8B72DBB1C82005156D5 /* PLCrashReportProcessInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PLCrashReportProcessInfo.h; path = ../Classes/PLCrashReportProcessInfo.h; sourceTree = "<group>"; };
 		C5A5C8B82DBB1C82005156D5 /* PLCrashReporterConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PLCrashReporterConfig.h; path = ../Classes/PLCrashReporterConfig.h; sourceTree = "<group>"; };
 		C5A5C8B92DBB1C82005156D5 /* PLCrashFeatureConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PLCrashFeatureConfig.h; path = ../Classes/PLCrashFeatureConfig.h; sourceTree = "<group>"; };
+		C5A5C8D12DBC309E005156D5 /* libCrashReporter-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libCrashReporter-iOS.a"; path = "../../../../Downloads/PLCrashReporter 2/libCrashReporter-iOS.a"; sourceTree = "<group>"; };
 		E328A2FB1C88B344008BB527 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/HockeySDK.strings; sourceTree = "<group>"; };
 		E400561D148D79B500EB22B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E405266117A2AD300096359C /* BITFeedbackManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BITFeedbackManagerDelegate.h; sourceTree = "<group>"; };
@@ -832,6 +835,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C561B8252E3D09AF008498CC /* libCrashReporter.a in Frameworks */,
+				C5A5C8D22DBC309E005156D5 /* libCrashReporter-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1309,6 +1313,8 @@
 			isa = PBXGroup;
 			children = (
 				C561B8242E3D09AF008498CC /* libCrashReporter.a */,
+				C5A5C8D12DBC309E005156D5 /* libCrashReporter-iOS.a */,
+				C5A5C8A22DBB1B9E005156D5 /* libCrashReporter.a */,
 				1EB617BD1B0A32D00035A986 /* CoreGraphics.framework */,
 				1EB617BB1B0A32C90035A986 /* CoreText.framework */,
 				E400561D148D79B500EB22B9 /* Foundation.framework */,
