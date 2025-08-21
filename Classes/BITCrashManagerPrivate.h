@@ -31,7 +31,7 @@
 
 #if HOCKEYSDK_FEATURE_CRASH_REPORTER
 
-#import <CrashReporter/CrashReporter.h>
+#import "CrashReporter.h"
 
 @class BITHockeyAppClient;
 
